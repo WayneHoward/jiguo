@@ -133,7 +133,7 @@
         <div class="footer-box">
             <div class="footer clearfix">
                 <!-- 返回顶部按钮 -->
-                <div class="returnUp"><img src="./css/img/up.png" alt=""></div>
+                <div class="returnUp"><img src="./css/img/up1.png" alt=""></div>
                 <div class="footer-left clearfix">
                     <div class="QRcode">
                         <img src="./img/code.png" alt="">
@@ -206,6 +206,9 @@
         window.location.href = './regist.html';
     });
     //返回顶部
+    document.addEventListener("scroll",function(){
+        $('.returnUp').show();
+    });
     $('.returnUp').on('click',function(){
         document.documentElement.scrollTop = 0;
     });

@@ -2,6 +2,9 @@ $(function(){
     $('.searchRegister #register').on('click',function(){
         window.location.href = './regist.html';
     });
+    $('.toRegister p').on('click',function(){
+        window.location.href = './regist.html';
+    });
     function mark(){
         var f_date = new Date("11 26,2020").getTime();
         var n_date = new Date().getTime();
@@ -125,6 +128,9 @@ $(function(){
     });
 
     //返回顶部
+    document.addEventListener("scroll",function(){
+        $('.returnUp').show();
+    });
     $('.returnUp').on('click',function(){
         document.documentElement.scrollTop = 0;
     });
