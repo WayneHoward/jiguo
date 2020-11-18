@@ -58,6 +58,11 @@
   margin: 18px 25px ;
   float: left;
   text-align: center;
+  cursor: pointer;
+}
+.content-box .life ul.list li:hover img {
+  transition: all 0.5s;
+  transform: scale(1.1);
 }
 .content-box .life ul.list li p {
   color: lightgray;
@@ -91,6 +96,11 @@
   margin: 18px 25px ;
   float: left;
   text-align: center;
+  cursor: pointer;
+}
+.content-box .nurse ul.nur-list li:hover img {
+  transition: all 0.5s;
+  transform: scale(1.1);
 }
 .content-box .nurse ul.nur-list li p {
   color: lightgray;
@@ -105,6 +115,11 @@
   text-align: center;
   color: #9f9c97;
   font-size: 14px;
+  cursor: pointer;
+}
+.content-box .nurse ul.nur-cate li:hover img {
+  transition: all 0.5s;
+  transform: scale(1.1);
 }
 .content-box .nurse ul.nur-cate li a {
   color: #9f9c97;
@@ -124,6 +139,11 @@
   margin: 18px 25px ;
   float: left;
   text-align: center;
+  cursor: pointer;
+}
+.content-box .health ul.hea-list li:hover img {
+  transition: all 0.5s;
+  transform: scale(1.1);
 }
 .content-box .health ul.hea-list li p {
   color: lightgray;
@@ -157,6 +177,11 @@
   margin: 18px 25px ;
   float: left;
   text-align: center;
+  cursor: pointer;
+}
+.content-box .smart ul.sm-list li:hover img {
+  transition: all 0.5s;
+  transform: scale(1.1);
 }
 .content-box .smart ul.sm-list li p {
   color: lightgray;
@@ -190,6 +215,11 @@
   margin: 18px 25px ;
   float: left;
   text-align: center;
+  cursor: pointer;
+}
+.content-box .out ul.out-list li:hover img {
+  transition: all 0.5s;
+  transform: scale(1.1);
 }
 .content-box .out ul.out-list li p {
   color: lightgray;
@@ -223,6 +253,11 @@
   margin: 18px 25px ;
   float: left;
   text-align: center;
+  cursor: pointer;
+}
+.content-box .sport ul.sp-list li:hover img {
+  transition: all 0.5s;
+  transform: scale(1.1);
 }
 .content-box .sport ul.sp-list li p {
   color: lightgray;
@@ -241,12 +276,14 @@
 .content-box .sport ul.sp-cate li a {
   color: #9f9c97;
 }
-.footer {
-  position: relative;
-}
-.footer .returnUp {
+.returnUp {
+  display: none;
   cursor: pointer;
-  position: absolute;
-  left: 1040px;
-  top: 250px;
+  position: fixed;
+  right: 40px;
+  top: 700px;
+}
+.returnUp img {
+  width: 50px;
+  height: 50px;
 }

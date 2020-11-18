@@ -30,6 +30,9 @@ $(function(){
         window.location.href = './../play/play-category.html';
     });
     //返回顶部
+    document.addEventListener("scroll",function(){
+        $('.returnUp').show();
+    });
     $('.returnUp').on('click',function(){
         document.documentElement.scrollTop = 0;
     });

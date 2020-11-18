@@ -48,6 +48,9 @@ $(function(){
         window.location.href = './../use/use-public-end.html';
     });
     //返回顶部
+    document.addEventListener("scroll",function(){
+        $('.returnUp').show();
+    });
     $('.returnUp').on('click',function(){
         document.documentElement.scrollTop = 0;
     });
