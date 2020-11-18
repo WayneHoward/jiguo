@@ -1,0 +1,128 @@
+.header-box {
+  width: 100%;
+  border-bottom: 1px solid #d0d0d0;
+}
+.header-box .header {
+  height: 74px;
+  width: 1000px;
+  margin: 0 auto;
+}
+.header-box .header .logo {
+  float: left;
+  height: 74px;
+}
+.header-box .header .logo img {
+  margin-top: 11px;
+  width: 133px;
+  height: 52px;
+  cursor: pointer;
+}
+.header-box .header .headerNav {
+  float: left;
+}
+.header-box .header .headerNav ul {
+  margin-top: 32px;
+  margin-left: 40px;
+}
+.header-box .header .headerNav ul li {
+  cursor: pointer;
+  float: left;
+  font-size: 20px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.header-box .header .headerNav ul li:hover {
+  color: #f65340;
+}
+.header-box .header .searchRegister {
+  float: right;
+}
+.header-box .header .searchRegister img {
+  display: inline-block;
+  margin-right: 36px;
+  cursor: pointer;
+}
+.header-box .header .searchRegister span {
+  margin-top: 21px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #f65340;
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  border-radius: 5px;
+  line-height: 30px;
+  border: 1px solid #f65340;
+}
+.header-box .header .searchRegister span:hover {
+  background-color: #f65340;
+  color: white;
+}
+.footer-box {
+  width: 100%;
+  background-color: #505050;
+}
+.footer-box .footer {
+  height: 360px;
+  width: 1000px;
+  margin: 0 auto;
+}
+.footer-box .footer .footer-left {
+  float: left;
+  margin-top: 40px;
+  margin-right: 36px;
+}
+.footer-box .footer .footer-left .QRcode {
+  margin-right: 21px;
+  float: left;
+}
+.footer-box .footer .footer-left .wechat {
+  width: 128px;
+  float: left;
+  font-size: 12px;
+  color: #a2a2a2;
+}
+.footer-box .footer .footer-left .wechat img {
+  margin-bottom: 28px;
+}
+.footer-box .footer .footer-left .wechat p {
+  margin-bottom: 19px;
+}
+.footer-box .footer .footer-right {
+  margin-top: 43px;
+}
+.footer-box .footer .footer-right .f1 {
+  float: left;
+  margin-right: 28px;
+}
+.footer-box .footer .footer-right .f2 {
+  float: left;
+}
+.footer-box .footer .footer-right .f2 .left {
+  float: left;
+  margin-right: 15px;
+}
+.footer-box .footer .footer-right .f2 .right {
+  float: left;
+}
+.footer-box .footer .footer-right .f3 {
+  float: left;
+  margin-left: 40px;
+}
+.footer-box .footer .footer-right .f4 {
+  float: left;
+  margin-left: 24px;
+}
+.footer-box .footer .footer-right h3 {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 32px;
+}
+.footer-box .footer .footer-right ul li {
+  cursor: pointer;
+  color: #a2a2a2;
+}
+.footer-box .footer .footer-right ul li:hover {
+  text-decoration: underline;
+}

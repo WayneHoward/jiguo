@@ -1,0 +1,82 @@
+.box {
+  width: 100%;
+  margin: 0 auto;
+}
+.box .w {
+  margin: 50px auto;
+}
+.help {
+  width: 270px;
+  height: 320px;
+  float: left;
+  background-color: #F3F3F3;
+  border-radius: 5px;
+  margin-right: 30px;
+}
+.help h2 {
+  width: 210px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 auto;
+  padding-top: 30px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-bottom: 1px solid darkgray;
+}
+.help ul {
+  margin-bottom: 30px;
+}
+.help ul li {
+  padding-left: 40px;
+}
+.help ul li p {
+  font-size: 16px;
+  margin-left: 20px;
+  line-height: 30px;
+}
+.help ul li a {
+  cursor: pointer;
+}
+.help .help-tittle {
+  font-size: 14px;
+  font-weight: bold;
+}
+.free {
+  width: 620px;
+  float: left;
+  border-radius: 5px;
+  padding: 0 40px;
+  background-color: #F3F3F3;
+}
+.free h2 {
+  width: 620px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 30px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid darkgray;
+}
+.free h3 {
+  margin: 20px 0;
+  cursor: pointer;
+}
+.free ul {
+  margin-bottom: 20px;
+}
+.free ul li {
+  line-height: 30px;
+  font-size: 14px;
+}
+.footer {
+  position: relative;
+}
+.footer .returnUp {
+  cursor: pointer;
+  position: absolute;
+  left: 1040px;
+  top: 250px;
+}

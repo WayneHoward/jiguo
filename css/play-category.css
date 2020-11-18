@@ -1,0 +1,252 @@
+.title-box {
+  width: 1000px;
+  margin: 0 auto;
+}
+.title-box .title {
+  height: 88px;
+}
+.title-box .title h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  color: #333333;
+}
+.title-box .nav ul {
+  width: 495px;
+  margin: 0 auto;
+}
+.title-box .nav ul li {
+  background-color: white;
+  text-align: center;
+  padding-bottom: 14px;
+  float: left;
+  width: 165px;
+  font-size: 18px;
+  color: #9f9c97;
+  cursor: pointer;
+}
+.title-box .nav ul li:hover {
+  border-bottom: 4px solid #f8572b;
+}
+.title-box .nav ul li:nth-child(3) {
+  border-bottom: 4px solid #f8572b;
+}
+.tittle {
+  margin-top: 20px;
+  line-height: 30px;
+  border-left: 5px solid #FF5242;
+  padding-left: 30px;
+  font-size: 16px;
+}
+.content-box {
+  width: 100%;
+  padding: 5px 0;
+  background-color: #F7F7F7;
+}
+.content-box .life {
+  margin: 20px auto;
+  height: 515px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background-color: white;
+}
+.content-box .life ul.list {
+  height: 330px;
+  border-bottom: 1px dashed lightgray;
+}
+.content-box .life ul.list li {
+  margin: 18px 25px ;
+  float: left;
+  text-align: center;
+}
+.content-box .life ul.list li p {
+  color: lightgray;
+  line-height: 30px;
+  font-size: 14px;
+}
+.content-box .life ul.cate li {
+  width: 130px;
+  float: left;
+  line-height: 30px;
+  margin: 3px 10px;
+  text-align: center;
+  color: #9f9c97;
+  font-size: 14px;
+}
+.content-box .life ul.cate li a {
+  color: #9f9c97;
+}
+.content-box .nurse {
+  margin: 20px auto;
+  height: 300px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background-color: white;
+}
+.content-box .nurse ul.nur-list {
+  height: 180px;
+  border-bottom: 1px dashed lightgray;
+}
+.content-box .nurse ul.nur-list li {
+  margin: 18px 25px ;
+  float: left;
+  text-align: center;
+}
+.content-box .nurse ul.nur-list li p {
+  color: lightgray;
+  line-height: 30px;
+  font-size: 14px;
+}
+.content-box .nurse ul.nur-cate li {
+  width: 130px;
+  float: left;
+  line-height: 30px;
+  margin: 3px 10px;
+  text-align: center;
+  color: #9f9c97;
+  font-size: 14px;
+}
+.content-box .nurse ul.nur-cate li a {
+  color: #9f9c97;
+}
+.content-box .health {
+  margin: 20px auto;
+  height: 300px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background-color: white;
+}
+.content-box .health ul.hea-list {
+  height: 180px;
+  border-bottom: 1px dashed lightgray;
+}
+.content-box .health ul.hea-list li {
+  margin: 18px 25px ;
+  float: left;
+  text-align: center;
+}
+.content-box .health ul.hea-list li p {
+  color: lightgray;
+  line-height: 30px;
+  font-size: 14px;
+}
+.content-box .health ul.hea-cate li {
+  width: 130px;
+  float: left;
+  line-height: 30px;
+  margin: 3px 10px;
+  text-align: center;
+  color: #9f9c97;
+  font-size: 14px;
+}
+.content-box .health ul.hea-cate li a {
+  color: #9f9c97;
+}
+.content-box .smart {
+  margin: 20px auto;
+  height: 300px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background-color: white;
+}
+.content-box .smart ul.sm-list {
+  height: 180px;
+  border-bottom: 1px dashed lightgray;
+}
+.content-box .smart ul.sm-list li {
+  margin: 18px 25px ;
+  float: left;
+  text-align: center;
+}
+.content-box .smart ul.sm-list li p {
+  color: lightgray;
+  line-height: 30px;
+  font-size: 14px;
+}
+.content-box .smart ul.sm-cate li {
+  width: 130px;
+  float: left;
+  line-height: 30px;
+  margin: 3px 10px;
+  text-align: center;
+  color: #9f9c97;
+  font-size: 14px;
+}
+.content-box .smart ul.sm-cate li a {
+  color: #9f9c97;
+}
+.content-box .out {
+  margin: 20px auto;
+  height: 300px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background-color: white;
+}
+.content-box .out ul.out-list {
+  height: 180px;
+  border-bottom: 1px dashed lightgray;
+}
+.content-box .out ul.out-list li {
+  margin: 18px 25px ;
+  float: left;
+  text-align: center;
+}
+.content-box .out ul.out-list li p {
+  color: lightgray;
+  line-height: 30px;
+  font-size: 14px;
+}
+.content-box .out ul.out-cate li {
+  width: 130px;
+  float: left;
+  line-height: 30px;
+  margin: 3px 10px;
+  text-align: center;
+  color: #9f9c97;
+  font-size: 14px;
+}
+.content-box .out ul.out-cate li a {
+  color: #9f9c97;
+}
+.content-box .sport {
+  margin: 20px auto;
+  height: 300px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background-color: white;
+}
+.content-box .sport ul.sp-list {
+  height: 180px;
+  border-bottom: 1px dashed lightgray;
+}
+.content-box .sport ul.sp-list li {
+  margin: 18px 25px ;
+  float: left;
+  text-align: center;
+}
+.content-box .sport ul.sp-list li p {
+  color: lightgray;
+  line-height: 30px;
+  font-size: 14px;
+}
+.content-box .sport ul.sp-cate li {
+  width: 130px;
+  float: left;
+  line-height: 30px;
+  margin: 3px 10px;
+  text-align: center;
+  color: #9f9c97;
+  font-size: 14px;
+}
+.content-box .sport ul.sp-cate li a {
+  color: #9f9c97;
+}
+.footer {
+  position: relative;
+}
+.footer .returnUp {
+  cursor: pointer;
+  position: absolute;
+  left: 1040px;
+  top: 250px;
+}

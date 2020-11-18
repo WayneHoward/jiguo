@@ -1,0 +1,134 @@
+.title-box {
+  width: 1000px;
+  margin: 0 auto;
+}
+.title-box .title {
+  height: 88px;
+}
+.title-box .title h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  color: #333333;
+}
+.title-box .nav ul {
+  width: 495px;
+  margin: 0 auto;
+}
+.title-box .nav ul li {
+  background-color: white;
+  text-align: center;
+  padding-bottom: 14px;
+  float: left;
+  width: 165px;
+  font-size: 18px;
+  color: #9f9c97;
+  cursor: pointer;
+}
+.title-box .nav ul li:hover {
+  border-bottom: 4px solid #f8572b;
+}
+.title-box .nav ul li:nth-child(1) {
+  border-bottom: 4px solid #f8572b;
+}
+.content-box {
+  width: 100%;
+  background-color: #f7f7f7;
+}
+.content-box .content {
+  width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.content-box .content ul {
+  padding-top: 25px;
+}
+.content-box .content ul li {
+  cursor: pointer;
+  float: left;
+  width: 220px;
+  height: 260px;
+  margin-right: 28px;
+  margin-bottom: 20px;
+  border: 1px solid #eaeaea;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.content-box .content ul li:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+}
+.content-box .content ul li .p1 {
+  margin-left: 9px;
+  margin-top: 12px;
+  height: 36px;
+  font-size: 13px;
+  color: #454545;
+}
+.content-box .content ul li .p2 {
+  text-indent: 9px;
+  font-size: 12px;
+  color: #9a9b9d;
+}
+.content-box .content ul li .show img {
+  width: 220px;
+  height: 130px;
+}
+.content-box .content ul li .bot .price {
+  margin-top: 26px;
+  text-indent: 9px;
+  float: left;
+  color: #f8572b;
+  font-size: 13px;
+}
+.content-box .content ul li .bot .likeWords {
+  float: right;
+  margin-top: 26px;
+}
+.content-box .content ul li .bot .likeWords .like {
+  width: 30px;
+  height: 14px;
+  text-align: right;
+  background: url(../css/img/xin.png) no-repeat 5px 3px;
+  float: left;
+}
+.content-box .content ul li .bot .likeWords .words {
+  width: 30px;
+  height: 14px;
+  text-align: right;
+  background: url(../css/img/reply.png) no-repeat 5px 3px;
+  margin-right: 11px;
+  float: left;
+}
+.content-box .content .more {
+  font-size: 17px;
+  color: #f8572b;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.content-box .content .loading {
+  display: none;
+  font-size: 17px;
+  color: #f8572b;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.content-box .content .finish {
+  display: none;
+  font-size: 17px;
+  color: #bcbcbc;
+  text-align: center;
+  margin-top: 30px;
+}
+.footer {
+  position: relative;
+}
+.footer .returnUp {
+  cursor: pointer;
+  position: absolute;
+  left: 1040px;
+  top: 250px;
+}

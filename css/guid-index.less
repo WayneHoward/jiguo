@@ -1,0 +1,124 @@
+.box{
+    width:100%;
+    margin: 0 auto;
+}
+.content-box{
+    background: #F7F7F7;
+}
+nav{
+    height:50px;
+    line-height: 50px;
+}
+.main{
+    width:700px;
+    margin-right: 20px;
+    float: left;
+}
+.content-tittle{
+    width:700px;
+    height:130px;
+    background-color: white;
+    border-bottom: 1px solid darkgray;
+    .tittle{
+        font-size: 25px;
+        height:80px;
+        line-height: 80px;
+        padding-left: 25px;
+    }
+    .author{
+        float: left;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .date{
+        float: right;
+        margin-right: 25px;
+        color: #cccccc;
+    }
+}
+.text{
+    padding:25px;
+    width:650px;
+    font-size: 14px;
+    color: #1E2223;
+    background: white;
+    .author-img{
+        img{
+            margin: 20px 0;
+        }
+    }
+    p{
+        line-height: 30px;
+    }
+    h3{
+        text-align: center;
+        color: #1E2223;
+        line-height: 50px;
+        // font-weight: normal;
+    }
+    span{
+        display: inline-block;
+        margin-top: 20px;
+    }
+}
+.like-share{
+    float: right;
+    height:110px;
+    width:265px;
+    background-color: white;
+    border:1px solid #cccccc;
+    border-radius: 10px;
+    position: relative;
+    div{
+        width:130px;
+        height:110px;
+        border-right: 1px solid #cccccc;
+        p{
+            text-align: center;
+            font-size: 16px;
+            line-height: 30px;
+        }
+        img{
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+    }
+    .like{
+        cursor: pointer;
+        float: left;
+        .liked{
+            display: none;
+        }
+    }
+    .share{
+        position: relative;
+        cursor: pointer;
+        float: right;
+        border-right: 0;
+        img{
+            margin-top: 35px;
+        }
+        .shared{
+            display: none;
+        }
+    }
+}
+#bshare-custom{
+    width: 200px;
+    height: 20px;
+    border:1px solid #cccccc;
+    padding: 20px;
+    position: absolute;
+    top:113px;
+    left:-100px;
+    display: none;
+}
+.footer{
+    position: relative;
+    .returnUp{
+        cursor: pointer;
+        position: absolute;
+        left: 1040px;
+        top: 250px;
+    }
+}

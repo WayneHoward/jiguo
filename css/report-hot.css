@@ -1,0 +1,171 @@
+.titleBig {
+  width: 100%;
+  border-bottom: 1px solid #f2f2f2;
+}
+.title-box {
+  width: 1000px;
+  margin: 0 auto;
+}
+.title-box .title {
+  height: 88px;
+}
+.title-box .title h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  color: #333333;
+}
+.title-box .nav ul {
+  width: 330px;
+  margin: 0 auto;
+}
+.title-box .nav ul li {
+  text-align: center;
+  padding-bottom: 14px;
+  float: left;
+  width: 165px;
+  font-size: 18px;
+  color: #9f9c97;
+  cursor: pointer;
+}
+.title-box .nav ul li:hover {
+  border-bottom: 4px solid #f8572b;
+}
+.title-box .nav ul li:nth-child(2) {
+  border-bottom: 4px solid #f8572b;
+}
+.bigBox {
+  background-color: #f7f7f7;
+  width: 100%;
+}
+.content-box {
+  width: 1000px;
+  margin: 0 auto;
+}
+.content-box .content {
+  width: 700px;
+  float: left;
+  margin-right: 30px;
+  padding-bottom: 50px;
+}
+.content-box .content ul {
+  padding-top: 25px;
+}
+.content-box .content ul li {
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  width: 700px;
+  height: 412px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.content-box .content ul li .image img {
+  width: 700px;
+  height: 412px;
+}
+.content-box .content ul li .text {
+  position: absolute;
+  padding-left: 23px;
+  padding-top: 25px;
+  border-radius: 5px;
+  top: 292px;
+  width: 700px;
+  height: 120px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.content-box .content ul li .text .p1 {
+  font-size: 17px;
+  color: #3b3b3b;
+}
+.content-box .content ul li .text .bdList {
+  margin-top: 36px;
+}
+.content-box .content ul li .text .bdList .left {
+  float: left;
+}
+.content-box .content ul li .text .bdList .left .name {
+  color: #f8572b;
+}
+.content-box .content ul li .text .bdList .left .time {
+  color: #828282;
+}
+.content-box .content ul li .text .bdList .right {
+  float: right;
+  margin-right: 50px;
+}
+.content-box .content ul li .text .bdList .right .like {
+  width: 30px;
+  height: 14px;
+  text-align: right;
+  background: url(../css/img/zan.png) no-repeat 5px 0px;
+  float: left;
+}
+.content-box .content ul li .text .bdList .right .words {
+  width: 30px;
+  height: 14px;
+  text-align: right;
+  background: url(../css/img/reply.png) no-repeat 5px 3px;
+  float: left;
+}
+.content-box .content .more {
+  font-size: 17px;
+  color: #f8572b;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.content-box .content .loading {
+  display: none;
+  font-size: 17px;
+  color: #f8572b;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.content-box .content .finish {
+  display: none;
+  font-size: 17px;
+  color: #bcbcbc;
+  text-align: center;
+  margin-top: 30px;
+}
+.content-box .aside {
+  float: left;
+  width: 270px;
+}
+.content-box .aside h3 {
+  font-size: 17px;
+  margin-top: 25px;
+  padding-left: 24px;
+  height: 25px;
+  line-height: 25px;
+  border-left: 6px solid #f8572b;
+}
+.content-box .aside .tiyanImg {
+  margin-top: 25px;
+}
+.content-box .aside .foly h4 {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #212121;
+}
+.content-box .aside .foly p {
+  margin-top: 10px;
+  color: #9ea5af;
+}
+.content-box .aside .QRcode {
+  margin-top: 40px;
+}
+.content-box .aside .QRcode img {
+  margin-top: 30px;
+}
+.footer {
+  position: relative;
+}
+.footer .returnUp {
+  cursor: pointer;
+  position: absolute;
+  left: 1040px;
+  top: 250px;
+}
