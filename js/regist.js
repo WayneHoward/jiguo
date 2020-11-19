@@ -59,6 +59,13 @@ $(function(){
             $('.infoPass').hide();
         }
     });
+    $('#re-password').on('blur',function(){
+        if($('#re-password').val() != $('#password').val() || $('#re-password').val() == ''){
+            $('.infoRePass').show();
+        }else{
+            $('.infoRePass').hide();
+        }
+    });
 
     $('.regist').on('click',function(){
         var phoneNumber = $('#phone-number').val();
@@ -70,12 +77,22 @@ $(function(){
         $.ajax({
             type:"post",
             url: "http://192.168.1.64:3000/users/register",
-            data: "phone=" + phoneNumber + "&code=" + imgCode + "&userName=" + userName + "&password=" + password,
+            data: "&phone=" + phoneNumber + "&code=r2b7&username=" + userName + "&password=" + password,
             success: function(res){
-                if($('#re-password').val() != $('#password').val() || $('#re-password').val() == ''){
-                    $('.infoRePass').show();
+                console.log(res);
+                if(res.status != 200){
+                    alert(res.msg);
                 }else{
-                    window.location.href = './index.html';
+                    $('.success').html('注册成功! 5 秒之后跳转到主页面');
+                    var i = 5;
+                    var time = setInterval(function(){
+                        i--;
+                        $('.success').html('注册成功! ' + i + ' 秒之后跳转到主页面');
+                        if(i == 0){
+                            clearInterval(time);
+                            window.location.href = './index.html';
+                        }
+                    },1000);
                 }
             }
         });
