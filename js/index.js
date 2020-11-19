@@ -74,8 +74,6 @@ $(function(){
             'transform':'translateX('+ count +'px)',
             'transition':'all 1s'
         });
-        $inner.scrollLeft($('.inner').scrollLeft());
-        console.log($('.inner').scrollLeft());
         // setTimeout(function(){
         //     autoPlay();
         // },1000);
@@ -89,6 +87,9 @@ $(function(){
             'transform':'translateX('+ count +'px)',
             'transition':'all 1s'
         });
+        setTimeout(function(){
+            autoPlay();
+        },1000);
     });
 
 
