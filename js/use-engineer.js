@@ -8,6 +8,11 @@ $(function(){
     $('.title-box .nav1 ul li:eq(1)').on('click',function(){
         window.location.href = './../use/use-engineer.html';
     });
+    //跳转到详情页
+    $('.content-box .content ul li').on('click',function(){
+        window.location.href = './../use/use-index.html';
+    });
+
     //返回顶部
     document.addEventListener("scroll",function(){
         $('.returnUp').show();

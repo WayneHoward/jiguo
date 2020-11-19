@@ -40,6 +40,11 @@ $(function(){
     $('.nav2 ul li:eq(3)').on('click',function(){
         window.location.href = './../use/use-public-end.html';
     });
+    //跳转到详情页
+    $('.content-box .content ul li').on('click',function(){
+        window.location.href = './../use/use-index.html';
+    });
+
     //返回顶部
     document.addEventListener("scroll",function(){
         $('.returnUp').show();

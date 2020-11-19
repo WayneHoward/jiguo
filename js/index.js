@@ -68,16 +68,25 @@ $(function(){
     $('.arrow .arrowLeft').on('click',function(){
         clearInterval($timer2);
         clearInterval($timer);
+        var num = $('.banner .inner .con').scrollLeft();
+        var count = num + 1000;
         $('.banner .inner .con').css({
-            'transform':'translateX(1000px)',
+            'transform':'translateX('+ count +'px)',
             'transition':'all 1s'
         });
+        $inner.scrollLeft($('.inner').scrollLeft());
+        console.log($('.inner').scrollLeft());
+        // setTimeout(function(){
+        //     autoPlay();
+        // },1000);
     });
     $('.arrow .arrowRight').on('click',function(){
         clearInterval($timer2);
         clearInterval($timer);
+        var num = $('.banner .inner .con').scrollLeft();
+        var count = num - 500;
         $('.banner .inner .con').css({
-            'transform':'translateX(-1000px)',
+            'transform':'translateX('+ count +'px)',
             'transition':'all 1s'
         });
     });
@@ -115,13 +124,16 @@ $(function(){
         var password=$('#password').val();
         $.ajax({
             type:"post",
-            url: "http://192.168.1.64:3000/users/register",
-            data: "&userName=" + userName + "&password=" + password,
+            url: "http://192.168.1.64:3000/users/login",
+            data: "&username=" + userName + "&password=" + password,
             success: function(res){
                 if(userName == '' || password == ''){
                     alert('用户名或密码不能为空');
+                }else if(res.msg != '登录成功！'){
+                    alert(res.msg);
                 }else{
-                    document.location.reload();
+                    alert(res.msg);
+                    $('.loginBox').hide();
                 }
             }
         });
