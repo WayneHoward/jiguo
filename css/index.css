@@ -69,6 +69,7 @@
 .showBox {
   width: 100%;
   background-image: url(img/original.jpg);
+  background-position: center;
 }
 .showBox .show {
   width: 1000px;
